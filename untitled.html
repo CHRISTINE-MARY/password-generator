@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="password-box">
+            <input type="text" placeholder="Pass$" disabled>
+            <i class='bx bx-copy'></i>
+        </div>
+        <div class="pass-range">
+            <input type="range" min="6" max="16" value="8">
+            <span class="number">8</span>
+        </div>
+        <button class="generate-button">Generate password</button>
+    </div>
+</body>
+</html>
